@@ -17,6 +17,7 @@ header {
 header > h1 {
     padding: 10px;
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.205);
 }
 
 span#burguer {
@@ -25,12 +26,13 @@ span#burguer {
     display: block; 
     text-align: center;
     padding: 10px;
-    cursor: pointer;   
+    cursor: pointer;  
 }
 
 span#burguer:hover {
     background-color: white;
     color: black;
+    transition: .5s;
 }
 
 menu {
@@ -52,7 +54,9 @@ menu > ul > li > a {
 }
 
 menu > ul > li > a:hover {
-    background-color: gray;    
+    background-color: white; 
+    color: black;
+    transition: .5s;   
 }
 
 main {
@@ -66,6 +70,7 @@ main {
 
 article > h2 {
     padding-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.205);
 }
 
 article > p {
