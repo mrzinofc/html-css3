@@ -30,7 +30,7 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: white;
+    background-color: rgb(209, 207, 207);
     color: black;
     transition: .5s;
 }
@@ -54,7 +54,7 @@ menu > ul > li > a {
 }
 
 menu > ul > li > a:hover {
-    background-color: white; 
+    background-color: rgb(209, 207, 207); 
     color: black;
     transition: .5s;   
 }
